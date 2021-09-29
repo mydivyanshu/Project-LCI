@@ -137,11 +137,14 @@ nav a:hover {
   border-bottom: 5px solid red;
 }
 
-.des {
+#des {
   margin-left: 5%;
   margin-right: 3.5%;
   text-align: center;
-  margin-top: 5%;
-  font-family: sans-serif;
+  margin-top: 0%;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: medium;
+}
+img {
+  border-radius: 20px;
 }
