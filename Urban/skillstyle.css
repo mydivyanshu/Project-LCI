@@ -142,3 +142,11 @@ nav a:hover {
 h3 {
   color: #476b6b;
 }
+.des {
+  margin-left: 5%;
+  margin-right: 3.5%;
+  text-align: center;
+  margin-top: 5%;
+  font-family: sans-serif;
+  font-size: large;
+}
