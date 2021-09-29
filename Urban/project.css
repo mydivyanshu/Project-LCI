@@ -1,0 +1,123 @@
+{
+  margin: 0;
+  padding: 0;
+}
+header{
+  width: 100%;
+  height: auto;
+  background-image: linear-gradient( #fff, #FDD2BF);
+}
+.navsection{
+  width: 100%;
+  height: 20vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+    background-image: linear-gradient(to top , #fff 85%, #DF2E2E 20%);
+}
+.logo{
+  width: 40%;
+  color: white;
+  background-image: linear-gradient( #FF6B6B 55% , #DF2E2E 45%);
+  padding-left: 100px;
+  box-sizing: border-box;
+}
+.logo h1{
+  text-transform: uppercase;
+padding: 1.6px;
+animation: frontback 2s infinite;
+}
+@keyframes frontback {
+  from{
+    padding-right: 10px;
+  }
+  to{
+    padding-left: 50px;
+  }
+}
+nav{
+  width: 60%;
+  justify-content: space-around;
+  display: flex;
+}
+nav a{
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+  font-size: 16px;
+  font-weight: bold;
+}
+nav a:before{
+  content: "";
+  position: absolute;
+  top: 110%;
+ left: 0;
+ width: 0;
+ height: 2px;
+ border-bottom: 2px solid #DF2E2E;
+ transition: all 0.4s linear;
+}
+nav a:hover:before{
+  width: 100%;
+}
+.row{
+  display : flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+margin-top: 40px;
+}
+.col-3{
+  flex-basis: 25%;
+  min-width : 100px;
+  margin-bottom: 30px;
+}
+.col-3 img{
+  width: 100%;
+height: 450px;
+}
+.small container{
+  max-width: 1080px;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.testimonial{
+  padding-top: 100px;
+
+}
+.testimonial .col-3{
+text-align: center;
+padding: 40px 20px;
+margin-left : 10px;
+box-shadow:0 0 20px 0 rgba(0,0,0,0.1);
+cursor : pointer;
+transition : transform 0.5s;
+}
+.testimonial .video1{
+  width:250px;
+  height: 150px;
+  margin-top: 20px;
+  border-radius:10%;
+}
+.testimonial .col-3:hover{
+  transform: translateY(-10px);
+}
+.title{
+  text-align: left;
+  margin: 80px 50px 40px;
+  position:relative;
+  line-height: 60px;
+  color: #435560;
+}
+.title::after{
+  content: "";
+  background:#DF2E2E;
+  width:253px;
+  height:5px;
+  border-radius: 5px;
+  position:absolute;
+  bottom:0;
+  left:10.5%;
+  transform: translateX(-50%);
+}
