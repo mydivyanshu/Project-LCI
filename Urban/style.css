@@ -6,7 +6,7 @@
 header {
   width: 100%;
   height: auto;
-  background-image: linear-gradient(#f5f5f0, #fff);
+  background-image: url(blue.jpg);
 }
 .navsection {
   width: 100%;
@@ -14,12 +14,12 @@ header {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-image: linear-gradient(to top, #fff 85%, #df2e2e 20%);
+  background-image: linear-gradient(to top, #fff 85%, #131444 20%);
 }
 .logo {
   width: 40%;
   color: white;
-  background-image: linear-gradient(#ff6b6b 55%, #df2e2e 45%);
+  background-image: linear-gradient(#1b1a6a 55%, #131444 45%);
   padding-left: 100px;
   box-sizing: border-box;
 }
@@ -44,7 +44,7 @@ nav {
 nav a {
   text-decoration: none;
   text-transform: uppercase;
-  color: #476b6b;
+  color: #df2e2e;
   font-size: 20px;
   font-weight: bold;
 }
@@ -56,14 +56,14 @@ nav a:before {
   left: 0;
   width: 0;
   height: 2px;
-  border-bottom: 2px solid #df2e2e;
+  border-bottom: 2px solid #131444;
   transition: all 0.4s linear;
 }
 nav a:hover:before {
   width: 100%;
 }
 nav a:hover {
-  color: red;
+  color: #131444;
 }
 .row {
   display: flex;
@@ -76,12 +76,11 @@ nav a:hover {
   flex-basis: 25%;
   min-width: 100px;
   margin-bottom: 30px;
-
-  background-image: linear-gradient(#fff, #fdd2bf);
+  background-image: url(card.jpg);
 }
 .col-3 img {
   width: 100%;
-  height: 450px;
+  height: 225px;
 }
 .small container {
   max-width: 1080px;
@@ -96,7 +95,7 @@ nav a:hover {
   text-align: center;
   padding: 40px 20px;
   margin-left: 10px;
-  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 10px 20px 0 rgba(255, 255, 255, 0.1);
   cursor: pointer;
   transition: transform 0.5s;
 }
@@ -114,7 +113,7 @@ nav a:hover {
   margin: 80px 50px 40px;
   position: relative;
   line-height: 60px;
-  color: #435560;
+  color: #df2e2e;
 }
 .title::after {
   content: "";
@@ -129,13 +128,14 @@ nav a:hover {
 }
 
 .channel {
+  font-size: large;
   margin-top: 10px;
   font-weight: bold;
   color: #df2e2e;
 }
 
 .active {
-  border-bottom: 5px solid red;
+  border-bottom: 5px solid #131444;
 }
 
 .des {
@@ -145,8 +145,20 @@ nav a:hover {
   margin-top: 5%;
   font-family: sans-serif;
   font-size: large;
-  color: #476b6b;
+  color: #fff;
 }
 img {
   border-radius: 20px;
+}
+button {
+  padding: 5%;
+  color: #fff;
+  font-family: sans-serif;
+  font-size: medium;
+  font-weight: bold;
+
+  background: #333333;
+}
+.con {
+  color: #fff;
 }
